@@ -14,13 +14,24 @@
     height: 150px;
     width: 50%;
     margin-left: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
     margin-right: auto;
     background: rgba(217, 217, 217, 0.73);
     box-shadow: 5px 8px 1px -2px rgba(0, 0, 0, 0.25);
+}
+
+.title{
+ top: 10px;
+ font-size: 25px;
+ font-family: Helvetica, sans-serif;
+ font-weight: bold;
+ 
+ 
+
+}
+
+.title_underline{
+    border-bottom: 5px solid yellow;
+    padding: 0 0 5px;
 }
 
 .soin{
@@ -48,8 +59,25 @@
 .email_input{
  border-radius: 20px;
  height: 40px;
+ width: 350px;
 }
 
-.search{
- 
+.date_input{
+ border-radius: 20px;
+ height: 40px;
+ width: 200px;
+}
+
+.search_button{
+  border-radius: 20px;
+  height: 40px;
+  border: solid 1px yellow;
+  color: yellow;
+}
+
+.line{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    align-items: center;
 }

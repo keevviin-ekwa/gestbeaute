@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer.component'
 import Hearder from '../components/Hearder.component'
 import SearchForm from '../components/searchForm.component'
 import Soin from '../components/Soin.component'
@@ -23,6 +24,9 @@ export default function HomePage() {
             <Soin/>
         </div>
        </div>
+
+        <Footer/>
+
     </div>
   )
 }

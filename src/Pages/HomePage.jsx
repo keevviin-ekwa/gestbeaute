@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <div className='Container-fluid'>
       <Hearder/>
-      <SearchForm/>
+      
        
        <h2>Nos prestations</h2>
        <br />

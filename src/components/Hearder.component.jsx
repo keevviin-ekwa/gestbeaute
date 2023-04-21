@@ -6,6 +6,7 @@ export default function Hearder() {
   return (
     <div className='head_container img-fluid'>
         <Navbar/>
+        <button>Reserver</button>
     </div>
   )
 }

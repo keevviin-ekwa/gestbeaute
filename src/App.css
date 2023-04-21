@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+.appointement{
+  padding: 5px;
+  width: 40%;
+  height: 700px;
+  margin: auto;
+  border: 1px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+}
+
+.test{
+  color: red;
+}
